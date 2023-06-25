@@ -1,0 +1,50 @@
+openapi: "3.0.3"
+info:
+  version: "1.0.0"
+  title: "Auth API"
+  description: "An API for Authentication"
+servers:
+  - url: http://localhost:8000
+paths:
+  /token:
+    post:
+      tags:
+        - Token
+      summary: Get a valid auth token
+      requestBody:
+          description: "Credentials object to be validated"
+          required: true
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Credentials"
+      responses:
+        "200":
+          description: "Success"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Token"
+        "400":
+          description: "Invalid request payload"
+        "401":
+          description: "Invalid credentials"
+        "500":
+          description: "Internal server error"
+
+components:
+  schemas:
+    Credentials:
+      type: object
+      properties:
+        username:
+          type: string
+          example: admin
+        password:
+          type: string
+          example: foobar
+    Token:
+      type: object
+      properties:
+        token:
+          type: string

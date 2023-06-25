@@ -1,0 +1,80 @@
+version: '3.8'
+
+x-shared-env: &shared-env
+  APP_JWT_SECRET: mysharedsecret
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  rabbitmq:
+    image: rabbitmq:management-alpine
+    ports:
+      - "5672:5672"
+      - "15762:15672"
+    environment:
+      # AMQP_URL: "amqp://rabbitmq?connection_attempts=5&retry_delay=5"
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+    healthcheck:
+        test: [ "CMD", "nc", "-z", "localhost", "5672" ]
+        interval: 10s
+        timeout: 15s
+        retries: 300
+
+  auth-service:
+    build: ../src/auth-service
+    ports:
+      - "8000:8000"
+    environment:
+      <<: *shared-env
+      JWT_EXP_TIME: 300
+    depends_on:
+      - db
+
+  product-service:
+    build: ../src/product-service
+    ports:
+      - "8088:8088"
+    environment:
+      <<: *shared-env
+      APP_DB_HOST: db
+      APP_DB_USERNAME: postgres
+      APP_DB_PASSWORD: password
+      APP_DB_NAME: prod
+      AMQP_USER: guest
+      AMQP_PASSWORD: guest
+      AMQP_HOST: rabbitmq
+    restart: on-failure
+    depends_on:
+      - db
+      - rabbitmq
+
+  graphqlservice:
+    build: ../src/ProductManagement
+    ports:
+      - "5096:80"
+    environment:
+      ConnectionString: Host=db;Database=prod;Username=postgres;Password=example
+
+  consumersimulator:
+    build: ../src/ConsumerSimulator
+    environment:
+      GRAPHQL_API_URL: graphqlservice/graphql
+
+  swagger:
+   image: swaggerapi/swagger-ui
+   ports:
+      - "8888:8080"
+   volumes:
+      - ../src/swagger:/usr/share/nginx/html/doc
+   environment:
+      URLS: "[{ url: \"./doc/product-service.yaml\", name: \"Product Service\" },
+              { url: \"./doc/auth-service.yaml\", name: \"Authentication Service\" }]"

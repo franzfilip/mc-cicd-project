@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="469.4988px" preserveAspectRatio="none" style="width:1024px;height:469px;background:#FFFFFF;" version="1.1" viewBox="0 0 1024 469" width="1024.7944px" zoomAndPan="magnify"><defs/><g><!--MD5=[ae7709657f611b622ade1638c535e86e]
+cluster cluster--><g id="cluster_cluster"><rect fill="#FFFFFF" height="444.872" rx="9.9302" ry="9.9302" style="stroke:#326CE5;stroke-width:0.7944142746314973;" width="858.7618" x="161.2661" y="5.5609"/><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="137.4337" x="521.9302" y="18.948">Kubernetes Cluster</text></g><!--MD5=[da4659bb21c015cf3403e413d86114fa]
+cluster ns--><g id="cluster_ns"><rect fill="#FFFFFF" height="377.3468" rx="9.9302" ry="9.9302" style="stroke:#FF4216;stroke-width:0.7944142746314973;" width="595.8107" x="398.796" y="47.6649"/><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="24.6268" x="684.3879" y="61.052">sve</text><text fill="#000000" font-family="sans-serif" font-size="9.533" font-weight="bold" lengthAdjust="spacing" textLength="73.0861" x="660.1583" y="72.8984">[Namespace]</text></g><!--MD5=[93899d00dda07bdaaa24b0ca9653ce2f]
+cluster istions--><g id="cluster_istions"><rect fill="#FFFFFF" height="254.2126" rx="9.9302" ry="9.9302" style="stroke:#FF4216;stroke-width:0.7944142746314973;" width="146.9666" x="180.332" y="41.3095"/><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="29.3933" x="239.1187" y="54.6967">istio</text><text fill="#000000" font-family="sans-serif" font-size="9.533" font-weight="bold" lengthAdjust="spacing" textLength="73.0861" x="217.2723" y="66.5431">[Namespace]</text></g><!--MD5=[d6771314d407fed3ccc7dbfd0946994b]
+entity deploy--><g id="elem_deploy"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="98.5074" x="779.3204" y="135.4476"/><image height="52.4313" width="55.609" x="787.2645" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAAEbElEQVR4Xt2au24VMRCG87R+hbxCXiGvEFq6SLQ0KaiRUiBEgQQRBUIUSGbkP8fHOzePLydcRn+RbNZef/bMb+85ucr/XVzxC/9+XBzp/v239OoRunnz6enHL37H7rggUgvT6vr1h4eP3/nd++IiSHfvvkiSFwPbiURJdfv2sxy9L1pM3tFa7EEiGKoTOdy4aGF5p7OxivT49SelkBzinGiR1/1jHokqYSNMq0VjnEEiGDmO7SIwSgH+7ECMIVm+fDlNGGMIac7KNmoIrIO0bmV7FXF8D2kRhqaWeiBtdxG/xkykOR5qRROpPpIWnJKH9p8thI4l6kjUQPbii8bqPIbF+gZAtc07PYWONGTT09vIon/y7k6hI8X9LVKvTtBcTC+XNY86kmyvKm6sfszVrVqxeQVpFw9igsoqJwWJ6GV7pu7BGf5GaUl3Wh7YxlwG8l5KKEjdFziaUd6mCQKwBucftIc8CeJdlFCQZEsma8qDRw3HUSLNW6kjGUayMnjoxcnK20jOd/vhSN1O1YmhiPNA1loNLRQ9lLeXSP72p3aRR/axVmpd+QOQ4u0lkj/Z6kJ3F9aSmsOjZzE5LxxJtmml7kVdh3TE+yrhTyuTTOADUneG1EIaGgGTOkeL5XRA6uaxXOXcW9hWePVohTmibqvoCvboqu6UsfEckLrTs4iUxOO7EclqNqoDkrzbbxxs1UqmvhMRniSy94zULaS0o5b8w1QbQR7Z5xkpcsRSqzn+bEidFxbdqmZq256RItvlln1J3Y7aGOVJx4o4I8n7pKRjIiLT0UqtScQETzqmzxhSMtLmafBtxzKJSPKralf+GSmePFbaxHtIxmpP80C1n2ekoRJXFyqH35cg5jSLPEkiyTsc+UYc2e9ZJ+s8qZnoGaRkF0MNesB9+eDBcQ6YxFDGOqrLPomUROZY4YyYgJ2/joqv0rp1WhE5lGxRfeLZxOOV3aqbgS+D1DrW4dgaKWup7mfisslesWk9IK3MqPPNhbx5o+Q+eUDKbjVHhJc8xiZv2yV1y+ZIedYqpK5P3wLKP+0SH3oJBSmPH0P/iKw815HyrFW8mJz9w0TKl6yBRamvbTU8pLgBxk2FRjN0RJbyT5jZR8rhA2UOLykOfvJ6UKrFseggZfu946b8j89D+d4/F6Tr8j8kEIwOAPQr3QnLqUj0K13E6RbXqyc5h10+OC36SNk4K9VRVqQ6XGJD0gIGV3KxHNyDG+BAmBRMEHq23pEti2MRQsqaAdaLGC4e+XD6oBR/xXBxP40YGzEWoaZ0/RkkLVsrx+JYRJGyqJasIdH4sL1iYYeQ7sq3um0GViERgjGAxCZPJl4FQILhCoarJh76aVs9lY/F26ekgMWxGEDK4p++qz3UgkHxVFrkIS5i3FiiJOyh4rW/ok8+iF6MIWXbAFW1iReRNIagJbQxjJQNA1QVR7ot/z/AqujR+CjKjxmkrBngdsE2J2ISSRbxXg1ZHItJJEQwqYZE6z+XbzWWkP7O+A+RfgMbh/GAJXMWuQAAAABJRU5ErkJggg==" y="143.3918"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="787.2645" y="206.1466"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="82.6191" x="787.2645" y="220.5679">deployment</text></g><!--MD5=[1f7b951f5caf56fbe2d869f37c09a9bd]
+entity hpa--><g id="elem_hpa"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="71.4973" x="900.0714" y="135.4476"/><image height="52.4313" width="55.609" x="908.0155" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAAEd0lEQVR4Xt2av44UMQzG72n3FfYVeIV7haWlO4mW5gpqpCkQokCCEwVCFEjGim+9HttxnMyfG876Cm43TvKbJF8yWe7g1cWd/uD/j82RHj79PL2dSG/ef336/VeXWDs2RJIwUud3nx+//NKl14tNkC4fv1uS3cDWRMJJdf/hm+19LBxMXdGyWAcJYXCd2O7mhQOrKx2NpUjTjz84hWwXx4SDvNw/xpFwJawII7XQGEeQEMb2Y3UhGE4B3XYi+pBqvrydBowxhTRmZSuqC6yBtNzK1lXG8SOkQ8FIxWusinRYHlJgiT4SJthapHBp4aPaTk1TxQ7oTl/DR2rWuOJmXwvbqJJOuIaP1PS3IyDV5p6PZPOVepFqzQdhG1WaKiaxLRJOYCzJ5ya0HPyz1hUVtlGl2nJykLBJm68UIGE6fts0TOwQbjLB6NkUK51TwkHKvMApJOwZDkhzBbrCMcTa7OHAlrRSKRQOks20kkjIg897jIdEVGpC2mJW7hzuQMK5xMdWiUQ7Cf87M+tIcu7ROHOdcO0Gne5sLsmd/xqptpCwlyD2K1kXj49aHsobuB45IOoRyKVFn2A6VSUrYdG3KjSS+/pAPNBCki3J5UEzU/5JC8++QdaQoP6suTyHRrLNSK/EJrGvajVbJJVOx2fKtfVLSSRqSB69XSrrmRpJJdS8X0aMRILK+CvZ/qmYzFWHfd2YIT3NT6sZHtgXCUonJZVdTjMk2aprJm7sjASGSn07Q2LnsehBNJGothWRYF6bypohydrzN0/7IylPVxvaDUktpFPpSqaNnZFsPbzHUNyQ3O0sQ7Un0qVy/pRlbki1nkmqx3LDei47aTNR1gD9SNSQHIEaj0q8IdlyLKyajjDu6SFoidOhH0nmNluRyymFRJrELYeyeBo9m0LKIN2bC36Z25wIcgt9RnLPGlZctbtrYaddsBipdvfNuclzPSc+I8XDauUiUdiqakjYV+W/MmyjsTjxGcmWiBUgwfWEyoUJSTrqOXHHbRuNxUO9CRIFg0mkDAyFbTQWV7shEgWBQUGyp+YgbKOx9CjZiR4rjzQcttFYnHgz8aSxkI6GJD1zdmx1LdjVoZDUfJ4h2ZNrTXQrsp2aeyvLvqfOkCC95x5EfFySoZGg3ypeULrrJRwkSJypjqDam4iPBD1W8SIK9usqEvR4zs66hH4bIeUNkIUPr2t/G5B6LbcRIUHl7T0QGuamSK7FqWgggfeyEIiu7afyWwZ5DPrnpVw48yd0cqUyvfy6c160kaDnrIS9pD2A7sxOZSryGRzK+kQwYrsv/9PAVlJTzeJUpJAgbYByKBiJt4Snckt6LrcxD+W3jPxyDSxORRYJcgbIcylAerz+7sQj2VRscSo6kDKTxEVSE4/ATmWZZZCaFqeiAwkSZyUswEj0COjNT9oDLSEaPbITWw8rY3Eq+pCg0wBP84k3oKQlyOhGgh4DPC1DmrzLsGaMIEHaAJeo66JCxiBSZlkvUZfFqRhEouhdVxmRr+iWemIR0jHjFSL9A5JenY+r0hBlAAAAAElFTkSuQmCC" y="143.3918"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="908.0155" y="206.1466"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="28.5989" x="908.0155" y="220.5679">HPA</text></g><!--MD5=[967c2b1a156e498aabfdc089710fb9a5]
+entity ingress--><g id="elem_ingress"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="110.4236" x="417.8619" y="205.3561"/><image height="52.4313" width="55.609" x="425.8061" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAAEZUlEQVR4Xt1aO45UMRDc084V5gpcgStASrYSKckGxEgTIESABCsChAiQTGt66enXn3LbzzOCLVUAD9uvy+4u99vlrj073NkH/z+uLun+w/fD6xPzxdvPjz9/2xGrcUVJWozm8c3Hh08/7Oh1uIqkV++/eiU3E7ZSEiXVy3dffPSYdJh2oX1YI4nEUJ34cOukg7WLzmKvpNO3X5RCPsQ50iHv9495SVQJC8Vo7jTGGUkkxsexnCSMUsC+u4AxSZkv72d24BPGWJI0Z2VDpLjBfg0J60jab2VFcsRds6k4PpJ0GzFMOQTaRKyKiGsslXRLPQclidHNc2CJsSSa4Fe5Kn2p4K6KNJvxgliSsWlanZI45NBhUhy0VMhw1/FtYUf/RSzJnHv4PkYl9Zkk3k4uAKyfRRVLKk5mULH69xlSWHgRjDAXMpNYIKkVruDs9XX40srKKZDkd70rqUWvFPrSn4PPQDvijECSD64iqSXpUbkcu8gqyo47I5DkZxYlNbeRWW4MAfhemM+LJZkLrT4xg08ZzfDD0UryheSJ7Utvambc3Mtphvvd7SFoop3jJXW9i5nFytCL+NwLC8NYyGO5XdazGFaSf1lGH6uG3mDjEOErtKRuP67p88VK8nMAsZvpbZaIs1ySAcU0EfoYNpJMcVcY1gDDJBiNBLXOkjLBgL6cNpJGd4jpj16gzQbn0mgHrGleupE0t6jfJ425bRqi2dONJD+6SGyAIN+W0LjlRdJEIWmGt55g7vyLNBt6kQT6jiJxe4prCf9rl/pFF0kTbnM475CxNbX4BjgLaDv25Kcup4skP67L47kz0rHyE1nTACQCnzAYgKkTZJckOZNKX8fIDFBiCtulLnUr8ySp0q0amsrRaVPvlbLVJuxE5j5JGs3j0N9AX2fgI/bWMhqSTHyS5EdoUqyaoR6GzhkfpYCyi3/WJQwrMMvSkFIFJUnh+0KYIOoTM9S7ctnBlZJ8QeJeqYjH2reTPSV8xBVJmVNhA6wjNBVNGXkxcbATFUlgOqi9IYRbxtRX/KZtzeZ0JXW3EFhFBVkKMI27biTpPkATS8JJKwS9EgZ2CH8HbiS1qMQPUFK9hcG9Uga8X6H9WEktWoXqxFxNQv8awOP2B12a4Rl217cTzggktcJay2mKrWLc2ZnHklpuFVeiloSLx483SCW13v27lhJipTjxrYAkZQbY5cP4/8VhSZVWtXt3I0mttmdLSC/qFs8hsTiDjqRW2zlDPiXyGDJP+jPVhmwNPaG/3o//6pppg4vQl9RgsxOSgmbfl1ufHYye8L3Hmz3qq5nFGZQktUEDFElyOPyETkbOnJ4MSQIWZ1CV1EYMcLkkbHEGA5LCXilkJoki4ydDide1OIMBSS3qlUJqe+AnYgZiDyzSzzWsWJzBmKQ2ZYBCik+m4+8FYdESNIYltXED1GRPP8HfNQlPUS/bxYykNmiAczQfdnVMSprulYocsjiDSUmMSvKMMvt2qmOXpH8Tz1DSH+E+zWvy5oAdAAAAAElFTkSuQmCC" y="213.3002"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="425.8061" y="276.0551"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="94.5353" x="425.8061" y="290.4763">nginx-ingress</text></g><!--MD5=[f4f551b47e199ede32ab3fc1ec427bc1]
+entity authsvc--><g id="elem_authsvc"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="104.0683" x="624.8068" y="101.2878"/><image height="52.4313" width="55.609" x="632.751" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADhElEQVR4Xt2asY7bMAyG72n9CnmFe4W+wnXtVqBrFw+dC9xQFB0KtEGHouhQQCXMsyyTlERSlqML8SMIHMnSF4m/pMQP4e7igV54/dEd6f3nX9PbZ9Tjh2/XP/9oiaOjI1IKk+ry7sv89TctfVx0QXr69IOTnAZ2JBJMqjcfv/PelwWDSW/UFscgAQzkCe+uXjCw9KbeaEV6/vkXphDvok8wyO3+4UeCTDgQJlWjMXqQAIb343ABGEwB2rYibEg5X+4nhzGqkHxWdqBMYBWkdis7VhrHLyENBZOqnGNZpGF5UAVLlJGgAr9LVTDjoaJVPsuB3KadXkNG8tk0INEbKcLXFojeaA0ZyedvJyNdM3NPRuL1NToZKWcSrxgpl04CEtDz+hqdjDRl0klA0hzgRI2LxGsqVTDxsCwMonwmjhLT6UiknOL2jH/UKPHgSJHciVRQPyRxqlOklmmQUz+kSUonitTjoNoVCRM1DYrE67SrKxI/buyQrq7dalVdkXg67ZD0iQQ3gsLQV43i3OAf5WRaG1OEQJD0ZyQ+3IcHbzQnkk47JF46J0TCr7MqLAwN849EYWf0RjXvf5bYkEyJhL1UTlQYfNP9sT96JLx/jA1ptuy1hkKKVTA2JNOxbzSkNJ02JF6uoNGQ0nS6E6T0OPiCpNmtQhtRESm9mCuM7eF/HGJhUh67VCgsaiVakZ5qS1tsqRBp23zrRSJN3eoqp7GuWPgFiZcgGh8pHgfvByk6xP0g0VGqetf4SLHwZuLlPevgSOnvKrtta8EuR0Yi1XdIhdXwsvwPVxZphhdIlU4KwOMFUhXWGP6b6w4p6NbccSTOHYoUFFYxjmjXlxCQgnFXfivl0lVGCkWrGEFz/g/2LFJQrL+3UjzMi1FCKhjgDUWO5TxKSKG2IJwv0eJIVJCC4txBBNYCKwEIv470UbB5eZIKHw4COayVdk6KOlKo7ZV4q/gG2KAi9Bu/lMfl+a1pcSqEJAtuVTmLI6FCChYDhI7CCAAGVsExmZb9BF70pWjB4khokYLFAKHf0Pvr+vwRDgu++pDKFkfCgKTZK12WnyXwfZxy8IpbNbweUeGKZk2vWhwJA1LQ7ZUAINoDzj0cmdh7kz1oLI6EDSnYDbBRSktIw4wUjAbYovRgpw8PUrAYoFvVc2EunEgO1zLJZHEknEgYPfIKxt8332I0IY0Zd4j0H/5OqJlk3lKMAAAAAElFTkSuQmCC" y="109.232"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="632.751" y="171.9868"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="88.18" x="632.751" y="186.4081">auth-service</text></g><!--MD5=[169f1127ce5e1c2488e16c4cc37d2252]
+entity prodmansvc--><g id="elem_prodmansvc"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="168.4158" x="592.633" y="309.4244"/><image height="52.4313" width="55.609" x="600.5772" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADhElEQVR4Xt2asY7bMAyG72n9CnmFe4W+wnXtVqBrFw+dC9xQFB0KtEGHouhQQCXMsyyTlERSlqML8SMIHMnSF4m/pMQP4e7igV54/dEd6f3nX9PbZ9Tjh2/XP/9oiaOjI1IKk+ry7sv89TctfVx0QXr69IOTnAZ2JBJMqjcfv/PelwWDSW/UFscgAQzkCe+uXjCw9KbeaEV6/vkXphDvok8wyO3+4UeCTDgQJlWjMXqQAIb343ABGEwB2rYibEg5X+4nhzGqkHxWdqBMYBWkdis7VhrHLyENBZOqnGNZpGF5UAVLlJGgAr9LVTDjoaJVPsuB3KadXkNG8tk0INEbKcLXFojeaA0ZyedvJyNdM3NPRuL1NToZKWcSrxgpl04CEtDz+hqdjDRl0klA0hzgRI2LxGsqVTDxsCwMonwmjhLT6UiknOL2jH/UKPHgSJHciVRQPyRxqlOklmmQUz+kSUonitTjoNoVCRM1DYrE67SrKxI/buyQrq7dalVdkXg67ZD0iQQ3gsLQV43i3OAf5WRaG1OEQJD0ZyQ+3IcHbzQnkk47JF46J0TCr7MqLAwN849EYWf0RjXvf5bYkEyJhL1UTlQYfNP9sT96JLx/jA1ptuy1hkKKVTA2JNOxbzSkNJ02JF6uoNGQ0nS6E6T0OPiCpNmtQhtRESm9mCuM7eF/HGJhUh67VCgsaiVakZ5qS1tsqRBp23zrRSJN3eoqp7GuWPgFiZcgGh8pHgfvByk6xP0g0VGqetf4SLHwZuLlPevgSOnvKrtta8EuR0Yi1XdIhdXwsvwPVxZphhdIlU4KwOMFUhXWGP6b6w4p6NbccSTOHYoUFFYxjmjXlxCQgnFXfivl0lVGCkWrGEFz/g/2LFJQrL+3UjzMi1FCKhjgDUWO5TxKSKG2IJwv0eJIVJCC4txBBNYCKwEIv470UbB5eZIKHw4COayVdk6KOlKo7ZV4q/gG2KAi9Bu/lMfl+a1pcSqEJAtuVTmLI6FCChYDhI7CCAAGVsExmZb9BF70pWjB4khokYLFAKHf0Pvr+vwRDgu++pDKFkfCgKTZK12WnyXwfZxy8IpbNbweUeGKZk2vWhwJA1LQ7ZUAINoDzj0cmdh7kz1oLI6EDSnYDbBRSktIw4wUjAbYovRgpw8PUrAYoFvVc2EunEgO1zLJZHEknEgYPfIKxt8332I0IY0Zd4j0H/5OqJlk3lKMAAAAAElFTkSuQmCC" y="317.3685"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="600.5772" y="380.1234"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="152.5275" x="600.5772" y="394.5446">product-management</text></g><!--MD5=[482876428baa11783c3bce013b9eaa12]
+entity prodsvc--><g id="elem_prodsvc"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="127.9007" x="612.8906" y="205.3561"/><image height="52.4313" width="55.609" x="620.8348" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADhElEQVR4Xt2asY7bMAyG72n9CnmFe4W+wnXtVqBrFw+dC9xQFB0KtEGHouhQQCXMsyyTlERSlqML8SMIHMnSF4m/pMQP4e7igV54/dEd6f3nX9PbZ9Tjh2/XP/9oiaOjI1IKk+ry7sv89TctfVx0QXr69IOTnAZ2JBJMqjcfv/PelwWDSW/UFscgAQzkCe+uXjCw9KbeaEV6/vkXphDvok8wyO3+4UeCTDgQJlWjMXqQAIb343ABGEwB2rYibEg5X+4nhzGqkHxWdqBMYBWkdis7VhrHLyENBZOqnGNZpGF5UAVLlJGgAr9LVTDjoaJVPsuB3KadXkNG8tk0INEbKcLXFojeaA0ZyedvJyNdM3NPRuL1NToZKWcSrxgpl04CEtDz+hqdjDRl0klA0hzgRI2LxGsqVTDxsCwMonwmjhLT6UiknOL2jH/UKPHgSJHciVRQPyRxqlOklmmQUz+kSUonitTjoNoVCRM1DYrE67SrKxI/buyQrq7dalVdkXg67ZD0iQQ3gsLQV43i3OAf5WRaG1OEQJD0ZyQ+3IcHbzQnkk47JF46J0TCr7MqLAwN849EYWf0RjXvf5bYkEyJhL1UTlQYfNP9sT96JLx/jA1ptuy1hkKKVTA2JNOxbzSkNJ02JF6uoNGQ0nS6E6T0OPiCpNmtQhtRESm9mCuM7eF/HGJhUh67VCgsaiVakZ5qS1tsqRBp23zrRSJN3eoqp7GuWPgFiZcgGh8pHgfvByk6xP0g0VGqetf4SLHwZuLlPevgSOnvKrtta8EuR0Yi1XdIhdXwsvwPVxZphhdIlU4KwOMFUhXWGP6b6w4p6NbccSTOHYoUFFYxjmjXlxCQgnFXfivl0lVGCkWrGEFz/g/2LFJQrL+3UjzMi1FCKhjgDUWO5TxKSKG2IJwv0eJIVJCC4txBBNYCKwEIv470UbB5eZIKHw4COayVdk6KOlKo7ZV4q/gG2KAi9Bu/lMfl+a1pcSqEJAtuVTmLI6FCChYDhI7CCAAGVsExmZb9BF70pWjB4khokYLFAKHf0Pvr+vwRDgu++pDKFkfCgKTZK12WnyXwfZxy8IpbNbweUeGKZk2vWhwJA1LQ7ZUAINoDzj0cmdh7kz1oLI6EDSnYDbBRSktIw4wUjAbYovRgpw8PUrAYoFvVc2EunEgO1zLJZHEknEgYPfIKxt8332I0IY0Zd4j0H/5OqJlk3lKMAAAAAElFTkSuQmCC" y="213.3002"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="620.8348" y="276.0551"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="112.0124" x="620.8348" y="290.4763">product-service</text></g><!--MD5=[d0494b911d11b8f39aef0023a74fd5b5]
+entity prodrs--><g id="elem_prodrs"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="83.4135" x="786.8673" y="239.5159"/><image height="52.4313" width="55.609" x="794.8115" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADuElEQVR4Xt2az27bMAzG+7R+hb5CXiGvkF13C7BrLzvsPCCHYdihQBf0UBQ7DNAIM1VokqKof44X4kPhOrKsnyR+lpw8hLuLB37i/4/hSMfvr9OnE2r35df5/S8v0TsGIlEYqsfPP77+fOOl+8UQpMO3F0myGlhPJJhU+6dn2XpbMJi8orbogwQwkCeyuX7BwPJKa6MV6fT7D0wh2cQ6wSC3+0c9EmRCRxiqRmOsQQIY2Y7uAjCYAvzejihDSvnyOFUYowupzso6qggsg9RuZX3lcXwLaVMwVHaOJZE2y4MyLFFHggtkLU5B1sH0oKK9Iz9F0VyF8vF8am0F5XmjP0JHarFp2X+0ualkOBIvZc1NzRdahoaO1OJvWAN2MIqNUjxPxUYJT2LvpBoj+w5DR5LX+4U1dFlYoA2kkFIm0R8J+jjViFLZSKl0UpCgInm9IWCIooMDx/QjKs/l0wcSK0/Fmz6HgpQyGVVs9KmvpHqR2ikwsE8NACl2LYaCJK80hDkKf1HUuHbzglqKYgNSPI93T00zVWo69UEq6tqU7MxRpW4cOVJpIg1FgjG0nVPO2yCR6MzxCJ8z9o2dwqpo70hIKdb+IJHsxqlztzrOuWW+BykmYQyOJK+h6osUcu7qQZIrrAXSObda3SCSTKcFUjaRhiLBMfh7aS5NIp0WSPbMngYjSQB5RhVLpwWSLM20TST2WuKKlE2kaRUkuh2EtmZdcZqXKbTOK5Jn27cCEoa8tS1SJUHKju+0ChL89XQuE02nK5IsJ7UCkqdnpWg63QnSnmxkLkgn32p1KFLjcjHWeUGyn+JR3ZFiyHuVKlZ1QZIlVG0ZKbbtxkjO2eFRdIj7QeKjlF2wsst6RUekWOfVxLPrjmnDSLRhi2Vr1kC7I9U9hZjYLnCBlF25AjM0oqPkLUq1F28LF0jB/czdiOSWNkik4LaKLYg3fQ4FKXSa4qMl3w1h6EjBYRW3lfEFexIpuJ+/6+ugvTeOYSFlDfAmYttyGRZS8O3e15RqcSwySKHhAf84/6QEdJjfdMPj4TRvwluylDdOizxS8K2VpHCG4LUAgwe7hq89UxbHwoUUqgxwN39lhseH+evx4/I3EEUyLI6FFymUGyBOtvgvdAqAwZmKmWxbHIsCpNK1EkWC8cFxhllXajlZi2NRgBQK10poD3gMJGgPMamc8lgcizKk0GCAdXJaAo1ipFBrgBWq257VIIUqAyyV/HrPGZVIo9dKRRbHohIJY0RewfjXzbcYTUjbjDtE+gfU7TCI9qWvuQAAAABJRU5ErkJggg==" y="247.46"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="794.8115" y="310.2149"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="67.5252" x="794.8115" y="324.6362">3 replicas</text></g><!--MD5=[0e1fecc31e3549f2a1667c6349b56d9e]
+entity postgres--><g id="elem_postgres"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="79.4414" x="896.0993" y="268.1148"/><image height="52.4313" width="55.609" x="904.0434" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADlElEQVR4Xt2ZPY4UMRCF97R9hbnCXoErLCnZSqQkBMRIGyBEsBIgAoQIkMxT14zbXVV2V9nuHs+UXrA747/PbT+Xex7C3cUD/+D2Y3ek58+/prcvpMf3337++cdL9I4dkVKYVKd3Xz5+/c1L94tdkJ4+fZckh4H1RMKievPhVY6+LDxM3lBb9EECDPaJHK5deLC80dpoRXr58RdLSA6xTnjI7f5Rj4Sd0BEmVaMx1iABRo6juwCGJcD7NoQPKefL+6nCGE1IdVbWUS6wDaR2K+sri+OXkIaCSVXeY1mkYXlIBUvUkVBBtjKUsLf5oC+hIx1j043ig76EjnRdfzMqt/Z0JFl/QOVM4oaRcttJQQK9rD+m+NDnUJAsFzhVMYvFHxCOAQhzyUSfs8KyNYv40OdQkGTNnGgoGB9mASaJx5vbsoVAFVREWgBaL5u6neqRQGLPu+wBQuAZ2dSLI0eybCT0V/E0vGFZ/xgJryaRLNcHdW72CNm1FK8jkVqeeMew3//leuFIso4UbeVpPhmwnWSj1QESTBZ5oDEpk9eNFZIxW42toFeyKbJsjAZfWawP35LRoXDqddRI9DHZtZTcTisky0aatIkJ8wTjcwwoHjvpylH/pVOLZkGdAtm1KlZrhWS8I6lIe4TsWhWbjhWSLK1qNCR2PC5Ixo00jYeExZXWWpCMDjONhzStt9OCZL/2DYiUbqcFSZbLaUCkdDvdCVJ6HTwjWbLVqGPSVuMhGRUrnpEsaS8TJka9rrRH3W8isfoZSZawiDqmDGAzCSoEKgKDsjvZi1FxfpuQUsXRpMkORkmiXIkUr+tpFdmgV9EhuiFdXfwpeffigCKQBSmYc9YxlRrVKm3tsqaPFzsnV0j2zHUcpYcsxQopOM/cq+skrrRBIoWbsgo+9DkUpODJyq+o3MmuI4XhraLwojeLFAY+f8tvEUtIYxogu5bLKCEFz+39GKkWx2IDKVTdO6Z5bTxdfqGhFDs9HqqPCj44LbaRQlWuRNeN6TKvhETt0GtnWWVTOYtjYUIKfgOk2wT9TTCRhF47yyplFSyOhRUpOA1QIk3zNJ/mS74sX1bZ4lg4kFwbQC68aZ5peq8vyxe0aXEsHEjBkys9zy/voz3EwdGDkuVzslgcCx9SMBtguvBaZLSENNxIwWaAXZDq3kDVIAW/AVao+gVoJVKFa7nksjgWlUgU7UtLig5l3pMnmpDGjDtE+g9rKsXwLLqpsQAAAABJRU5ErkJggg==" y="276.059"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="904.0434" y="338.8138"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="63.5531" x="904.0434" y="353.2351">postgres</text></g><!--MD5=[979bcc919fe3deace2fbebc05cbbcf30]
+entity rabbitmq--><g id="elem_rabbitmq"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="78.647" x="433.7502" y="309.4244"/><image height="52.4313" width="55.609" x="441.6943" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADlElEQVR4Xt2ZPY4UMRCF97R9hbnCXoErLCnZSqQkBMRIGyBEsBIgAoQIkMxT14zbXVV2V9nuHs+UXrA747/PbT+Xex7C3cUD/+D2Y3ek58+/prcvpMf3337++cdL9I4dkVKYVKd3Xz5+/c1L94tdkJ4+fZckh4H1RMKievPhVY6+LDxM3lBb9EECDPaJHK5deLC80dpoRXr58RdLSA6xTnjI7f5Rj4Sd0BEmVaMx1iABRo6juwCGJcD7NoQPKefL+6nCGE1IdVbWUS6wDaR2K+sri+OXkIaCSVXeY1mkYXlIBUvUkVBBtjKUsLf5oC+hIx1j043ig76EjnRdfzMqt/Z0JFl/QOVM4oaRcttJQQK9rD+m+NDnUJAsFzhVMYvFHxCOAQhzyUSfs8KyNYv40OdQkGTNnGgoGB9mASaJx5vbsoVAFVREWgBaL5u6neqRQGLPu+wBQuAZ2dSLI0eybCT0V/E0vGFZ/xgJryaRLNcHdW72CNm1FK8jkVqeeMew3//leuFIso4UbeVpPhmwnWSj1QESTBZ5oDEpk9eNFZIxW42toFeyKbJsjAZfWawP35LRoXDqddRI9DHZtZTcTisky0aatIkJ8wTjcwwoHjvpylH/pVOLZkGdAtm1KlZrhWS8I6lIe4TsWhWbjhWSLK1qNCR2PC5Ixo00jYeExZXWWpCMDjONhzStt9OCZL/2DYiUbqcFSZbLaUCkdDvdCVJ6HTwjWbLVqGPSVuMhGRUrnpEsaS8TJka9rrRH3W8isfoZSZawiDqmDGAzCSoEKgKDsjvZi1FxfpuQUsXRpMkORkmiXIkUr+tpFdmgV9EhuiFdXfwpeffigCKQBSmYc9YxlRrVKm3tsqaPFzsnV0j2zHUcpYcsxQopOM/cq+skrrRBIoWbsgo+9DkUpODJyq+o3MmuI4XhraLwojeLFAY+f8tvEUtIYxogu5bLKCEFz+39GKkWx2IDKVTdO6Z5bTxdfqGhFDs9HqqPCj44LbaRQlWuRNeN6TKvhETt0GtnWWVTOYtjYUIKfgOk2wT9TTCRhF47yyplFSyOhRUpOA1QIk3zNJ/mS74sX1bZ4lg4kFwbQC68aZ5peq8vyxe0aXEsHEjBkys9zy/voz3EwdGDkuVzslgcCx9SMBtguvBaZLSENNxIwWaAXZDq3kDVIAW/AVao+gVoJVKFa7nksjgWlUgU7UtLig5l3pMnmpDGjDtE+g9rKsXwLLqpsQAAAABJRU5ErkJggg==" y="317.3685"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="441.6943" y="380.1234"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="62.7587" x="441.6943" y="394.5446">rabbitmq</text></g><!--MD5=[03500daf9b134477c945ddf62bcb3933]
+entity sidecars--><g id="elem_sidecars"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="109.6292" x="199.0008" y="82.2219"/><image height="52.4313" width="55.609" x="206.9449" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADhElEQVR4Xt2asY7bMAyG72n9CnmFe4W+wnXtVqBrFw+dC9xQFB0KtEGHouhQQCXMsyyTlERSlqML8SMIHMnSF4m/pMQP4e7igV54/dEd6f3nX9PbZ9Tjh2/XP/9oiaOjI1IKk+ry7sv89TctfVx0QXr69IOTnAZ2JBJMqjcfv/PelwWDSW/UFscgAQzkCe+uXjCw9KbeaEV6/vkXphDvok8wyO3+4UeCTDgQJlWjMXqQAIb343ABGEwB2rYibEg5X+4nhzGqkHxWdqBMYBWkdis7VhrHLyENBZOqnGNZpGF5UAVLlJGgAr9LVTDjoaJVPsuB3KadXkNG8tk0INEbKcLXFojeaA0ZyedvJyNdM3NPRuL1NToZKWcSrxgpl04CEtDz+hqdjDRl0klA0hzgRI2LxGsqVTDxsCwMonwmjhLT6UiknOL2jH/UKPHgSJHciVRQPyRxqlOklmmQUz+kSUonitTjoNoVCRM1DYrE67SrKxI/buyQrq7dalVdkXg67ZD0iQQ3gsLQV43i3OAf5WRaG1OEQJD0ZyQ+3IcHbzQnkk47JF46J0TCr7MqLAwN849EYWf0RjXvf5bYkEyJhL1UTlQYfNP9sT96JLx/jA1ptuy1hkKKVTA2JNOxbzSkNJ02JF6uoNGQ0nS6E6T0OPiCpNmtQhtRESm9mCuM7eF/HGJhUh67VCgsaiVakZ5qS1tsqRBp23zrRSJN3eoqp7GuWPgFiZcgGh8pHgfvByk6xP0g0VGqetf4SLHwZuLlPevgSOnvKrtta8EuR0Yi1XdIhdXwsvwPVxZphhdIlU4KwOMFUhXWGP6b6w4p6NbccSTOHYoUFFYxjmjXlxCQgnFXfivl0lVGCkWrGEFz/g/2LFJQrL+3UjzMi1FCKhjgDUWO5TxKSKG2IJwv0eJIVJCC4txBBNYCKwEIv470UbB5eZIKHw4COayVdk6KOlKo7ZV4q/gG2KAi9Bu/lMfl+a1pcSqEJAtuVTmLI6FCChYDhI7CCAAGVsExmZb9BF70pWjB4khokYLFAKHf0Pvr+vwRDgu++pDKFkfCgKTZK12WnyXwfZxy8IpbNbweUeGKZk2vWhwJA1LQ7ZUAINoDzj0cmdh7kz1oLI6EDSnYDbBRSktIw4wUjAbYovRgpw8PUrAYoFvVc2EunEgO1zLJZHEknEgYPfIKxt8332I0IY0Zd4j0H/5OqJlk3lKMAAAAAElFTkSuQmCC" y="90.166"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="206.9449" y="152.9209"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="93.7409" x="206.9449" y="167.3421">istio-sidecars</text></g><!--MD5=[53d6b9029d33f608e5fcb7dcafae6700]
+entity kiali--><g id="elem_kiali"><rect fill="#FFFFFF" height="96.0621" rx="1.986" ry="1.986" style="stroke:none;stroke-width:0.39720713731574864;" width="121.5454" x="193.0427" y="186.2901"/><image height="52.4313" width="55.609" x="200.9868" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABCCAIAAABl3TfFAAADhElEQVR4Xt2asY7bMAyG72n9CnmFe4W+wnXtVqBrFw+dC9xQFB0KtEGHouhQQCXMsyyTlERSlqML8SMIHMnSF4m/pMQP4e7igV54/dEd6f3nX9PbZ9Tjh2/XP/9oiaOjI1IKk+ry7sv89TctfVx0QXr69IOTnAZ2JBJMqjcfv/PelwWDSW/UFscgAQzkCe+uXjCw9KbeaEV6/vkXphDvok8wyO3+4UeCTDgQJlWjMXqQAIb343ABGEwB2rYibEg5X+4nhzGqkHxWdqBMYBWkdis7VhrHLyENBZOqnGNZpGF5UAVLlJGgAr9LVTDjoaJVPsuB3KadXkNG8tk0INEbKcLXFojeaA0ZyedvJyNdM3NPRuL1NToZKWcSrxgpl04CEtDz+hqdjDRl0klA0hzgRI2LxGsqVTDxsCwMonwmjhLT6UiknOL2jH/UKPHgSJHciVRQPyRxqlOklmmQUz+kSUonitTjoNoVCRM1DYrE67SrKxI/buyQrq7dalVdkXg67ZD0iQQ3gsLQV43i3OAf5WRaG1OEQJD0ZyQ+3IcHbzQnkk47JF46J0TCr7MqLAwN849EYWf0RjXvf5bYkEyJhL1UTlQYfNP9sT96JLx/jA1ptuy1hkKKVTA2JNOxbzSkNJ02JF6uoNGQ0nS6E6T0OPiCpNmtQhtRESm9mCuM7eF/HGJhUh67VCgsaiVakZ5qS1tsqRBp23zrRSJN3eoqp7GuWPgFiZcgGh8pHgfvByk6xP0g0VGqetf4SLHwZuLlPevgSOnvKrtta8EuR0Yi1XdIhdXwsvwPVxZphhdIlU4KwOMFUhXWGP6b6w4p6NbccSTOHYoUFFYxjmjXlxCQgnFXfivl0lVGCkWrGEFz/g/2LFJQrL+3UjzMi1FCKhjgDUWO5TxKSKG2IJwv0eJIVJCC4txBBNYCKwEIv470UbB5eZIKHw4COayVdk6KOlKo7ZV4q/gG2KAi9Bu/lMfl+a1pcSqEJAtuVTmLI6FCChYDhI7CCAAGVsExmZb9BF70pWjB4khokYLFAKHf0Pvr+vwRDgu++pDKFkfCgKTZK12WnyXwfZxy8IpbNbweUeGKZk2vWhwJA1LQ7ZUAINoDzj0cmdh7kz1oLI6EDSnYDbBRSktIw4wUjAbYovRgpw8PUrAYoFvVc2EunEgO1zLJZHEknEgYPfIKxt8332I0IY0Zd4j0H/5OqJlk3lKMAAAAAElFTkSuQmCC" y="194.2343"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="3.1777" x="200.9868" y="256.9891"> </text><text fill="#000000" font-family="sans-serif" font-size="12.7106" font-weight="bold" lengthAdjust="spacing" textLength="105.6571" x="200.9868" y="271.4104">kiali-dashboard</text></g><!--MD5=[848c3301f22cadb4e520eb0d4384535a]
+entity userAlias--><g id="elem_userAlias"><ellipse cx="17.4771" cy="298.3026" fill="#F1F1F1" rx="6.3553" ry="6.3553" style="stroke:#181818;stroke-width:0.39720713731574864;"/><path d="M17.4771,304.6579 L17.4771,326.1071 M7.1497,311.0132 L27.8045,311.0132 M17.4771,326.1071 L7.1497,338.0233 M17.4771,326.1071 L27.8045,338.0233 " fill="none" style="stroke:#181818;stroke-width:0.39720713731574864;"/><text fill="#000000" font-family="sans-serif" font-size="11.1218" lengthAdjust="spacing" textLength="25.4213" x="4.7665" y="349.5384">User</text></g><!--MD5=[7ad788f1030d34853867562f4fa9fcf5]
+link userAlias to ingress--><g id="link_userAlias_ingress"><path d="M30.4658,322.3415 C72.8796,324.1846 217.6457,328.1964 333.654,304.2607 C360.7038,298.6839 389.5331,288.7934 413.866,279.2128 " fill="none" id="userAlias-to-ingress" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="417.7269,277.6796,409.9095,277.3555,414.0334,279.1411,412.2479,283.265,417.7269,277.6796" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="52.4313" x="227.5997" y="301.1362">localhost</text></g><!--MD5=[cc23fdd0b4587db0b1afab385514092b]
+link userAlias to rabbitmq--><g id="link_userAlias_rabbitmq"><path d="M30.5611,326.3772 C32.5392,327.0206 34.5809,327.6164 36.5431,328.0931 C88.18,340.5892 101.9948,340.0014 154.9108,344.7758 C252.7906,353.6097 368.2031,356.3027 429.3015,357.1289 " fill="none" id="userAlias-to-rabbitmq" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="433.6072,357.1845,426.5036,353.9051,429.6355,357.1278,426.4128,360.2598,433.6072,357.1845" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="85.0023" x="211.3142" y="341.6513">localhost:5672</text></g><!--MD5=[1eccd85663eaecacc4f888ca42ec6057]
+link userAlias to kiali--><g id="link_userAlias_kiali"><path d="M30.2354,317.2811 C59.025,306.5645 133.8429,278.7202 188.864,258.2323 " fill="none" id="userAlias-to-kiali" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="192.7885,256.7706,184.9795,256.2848,189.0656,258.1553,187.195,262.2414,192.7885,256.7706" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="106.4515" x="37.3375" y="260.621">istioctl dashboard</text><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="23.8324" x="37.3375" y="272.6427">kiali</text></g><!--MD5=[d3de4714dfb39e59d77f4acae69010f6]
+link ingress to authsvc--><g id="link_ingress_authsvc"><path d="M528.3173,225.3912 C556.9718,210.6469 592.0293,192.5978 620.803,177.7899 " fill="none" id="ingress-to-authsvc" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="624.64,175.8118,616.828,176.2468,621.1056,177.6243,619.7281,181.9019,624.64,175.8118" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="37.3375" x="541.7905" y="195.4791">/token</text></g><!--MD5=[dda084e92204c38726ce37a9d4c94b28]
+link ingress to prodmansvc--><g id="link_ingress_prodmansvc"><path d="M528.3173,281.4451 C547.0019,291.0575 568.4034,302.084 589.0185,312.6894 " fill="none" id="ingress-to-prodmansvc" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="592.5854,314.5245,587.6814,308.428,589.0533,312.7074,584.774,314.0793,592.5854,314.5245" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="50.0481" x="535.4352" y="284.4535">/graphql</text></g><!--MD5=[6f451edc16ed13c2904b23bb09827acc]
+link ingress to prodsvc--><g id="link_ingress_prodsvc"><path d="M528.3173,253.4182 C552.96,253.4182 582.3454,253.4182 608.3942,253.4182 " fill="none" id="ingress-to-prodsvc" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="612.5411,253.4182,605.3913,250.2405,608.569,253.4182,605.3913,256.5958,612.5411,253.4182" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="50.0481" x="535.4352" y="250.2936">/product</text></g><!--MD5=[8159daa382a79afa41c4fc80d13d5b92]
+reverse link deploy to hpa--><g id="link_deploy_hpa"><path d="M882.0858,183.5097 C888.1869,183.5097 894.288,183.5097 900.0714,183.5097 " fill="none" id="deploy-backto-hpa" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="877.8675,183.5097,885.0172,186.6874,881.8396,183.5097,885.0172,180.332,877.8675,183.5097" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="884.9775" y="180.3852"> </text></g><!--MD5=[cd0909be536601a34a7dbbf6e09474fd]
+reverse link authsvc to deploy--><g id="link_authsvc_deploy"><path d="M733.1252,161.9731 C748.2747,165.4209 764.5681,169.1308 779.2886,172.4753 " fill="none" id="authsvc-backto-deploy" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="728.883,161.0119,735.1442,165.7038,732.7551,161.8976,736.5613,159.5085,728.883,161.0119" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="768.1986" y="167.6746"> </text></g><!--MD5=[317d599e15081377f078d8292599f405]
+reverse link prodmansvc to deploy--><g id="link_prodmansvc_deploy"><path d="M760.5166,305.8574 C760.6993,305.5953 760.8741,305.3252 761.0489,305.0551 C772.0912,287.999 761.4937,279.2207 767.4042,259.7735 C770.9393,248.1432 772.4328,245.1642 779.3204,235.1466 C780.083,234.0344 780.8775,232.9143 781.6878,231.8101 " fill="none" id="prodmansvc-backto-deploy" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="758.1016,309.2655,764.8378,305.2855,760.406,306.0302,759.6613,301.5984,758.1016,309.2655" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="768.1986" y="242.3495"> </text></g><!--MD5=[4bf740919f85a560a29ea1a4a869c284]
+reverse link prodsvc to deploy--><g id="link_prodsvc_deploy"><path d="M744.4933,222.2851 C756.1791,216.8433 768.1351,211.2824 779.2171,206.1187 " fill="none" id="prodsvc-backto-deploy" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="740.8787,223.9772,748.7014,223.8318,744.4778,222.2968,746.0129,218.0732,740.8787,223.9772" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="768.1986" y="207.3953"> </text></g><!--MD5=[75d11d4b1d42b95a8f13fe4fbb79f81c]
+link rabbitmq to prodmansvc--><g id="link_rabbitmq_prodmansvc"><path d="M512.6117,357.4864 C534.1085,357.4864 561.7701,357.4864 588.2082,357.4864 " fill="none" id="rabbitmq-to-prodmansvc" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="592.4424,357.4864,585.2927,354.3088,588.4703,357.4864,585.2927,360.6641,592.4424,357.4864" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="558.4732" y="354.3619"> </text></g><!--MD5=[66919809db437a45e06702ef95e2df6e]
+link prodmansvc to postgres--><g id="link_prodmansvc_postgres"><path d="M761.0489,365.4465 C797.6158,366.4156 840.5856,364.0801 877.8278,352.7199 C882.769,351.2106 887.6944,349.153 892.4609,346.7698 " fill="none" id="prodmansvc-to-postgres" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="896.0755,344.887,888.2664,345.3718,892.5527,346.722,891.2025,351.0083,896.0755,344.887" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="826.5881" y="349.5954"> </text></g><!--MD5=[565fd148f5f0300b217239e5a9d5de1a]
+link prodsvc to prodrs--><g id="link_prodsvc_prodrs"><path d="M740.8787,267.805 C754.9637,271.0144 769.6285,274.351 782.7999,277.3459 " fill="none" id="prodsvc-to-prodrs" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="786.8435,278.2674,780.5693,273.593,782.969,277.3925,779.1695,279.7922,786.8435,278.2674" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="768.1986" y="271.7428"> </text></g><!--MD5=[daed1fec0a3055bf85ab9bfad03c4836]
+link prodrs to postgres--><g id="link_prodrs_postgres"><path d="M870.5192,298.7157 C877.5577,300.6222 884.8901,302.6083 891.9763,304.5228 " fill="none" id="prodrs-to-postgres" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="895.8928,305.5873,889.8286,300.6435,892.0601,304.5441,888.1595,306.7757,895.8928,305.5873" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="3.9721" x="884.9775" y="300.3417"> </text></g><!--MD5=[7a2c0dd7e209284917a570eae2971005]
+link sidecars to ns--><g id="link_sidecars_ns"><path d="M308.8524,112.918 C332.3909,105.8954 360.4019,98.2214 386.0853,92.9465 C388.413,92.4683 390.7804,92.0069 393.1741,91.562 C394.3709,91.3395 395.5742,91.1212 396.7824,90.9069 C397.3864,90.7998 397.9917,90.6937 398.598,90.5886 " fill="none" id="sidecars-to-ns" style="stroke:#666666;stroke-width:0.7944142746314973;"/><polygon fill="#666666" points="398.598,90.5886,391.0106,88.6787,394.6843,91.267,392.096,94.9407,398.598,90.5886" style="stroke:#666666;stroke-width:0.7944142746314973;"/><text fill="#666666" font-family="sans-serif" font-size="10.3274" font-weight="bold" lengthAdjust="spacing" textLength="38.1319" x="340.8037" y="91.4108">injects</text></g><rect fill="none" height="9.2475" style="stroke:none;stroke-width:0.7944142746314973;" width="88.18" x="462.7463" y="454.405"/><text fill="#888888" font-family="sans-serif" font-size="7.9441" lengthAdjust="spacing" textLength="88.18" x="462.7463" y="461.7789">Kubernetes Plant-UML</text><!--MD5=[52cc54f4f0403fbd626ec5ad2f409f9f]
+@startuml kubernetes
+
+footer Kubernetes Plant-UML
+scale max 1024 width
+
+skinparam nodesep 10
+skinparam ranksep 10
+
+' Kubernetes
+!define KubernetesPuml https://raw.githubusercontent.com/dcasati/kubernetes-PlantUML/master/dist
+
+!includeurl KubernetesPuml/kubernetes_Common.puml
+!includeurl KubernetesPuml/kubernetes_Context.puml
+!includeurl KubernetesPuml/kubernetes_Simplified.puml
+
+!includeurl KubernetesPuml/OSS/KubernetesSvc.puml
+!includeurl KubernetesPuml/OSS/KubernetesIng.puml
+!includeurl KubernetesPuml/OSS/KubernetesPod.puml
+!includeurl KubernetesPuml/OSS/KubernetesRs.puml
+!includeurl KubernetesPuml/OSS/KubernetesDeploy.puml
+!includeurl KubernetesPuml/OSS/KubernetesHpa.puml
+!includeurl KubernetesPuml/OSS/KubernetesPv.puml
+
+actor "User" as userAlias
+left to right direction
+
+' Kubernetes Components
+Cluster_Boundary(cluster, "Kubernetes Cluster") {
+    Namespace_Boundary(ns, "sve") {
+        KubernetesDeploy(deploy,"deployment","")
+        KubernetesHpa(hpa, "HPA", "")
+
+        KubernetesIng(ingress, "nginx-ingress", "")
+        KubernetesSvc(authsvc, "auth-service", "")
+        
+        KubernetesSvc(prodmansvc, "product-management", "")
+        
+        KubernetesSvc(prodsvc, "product-service", "")
+        KubernetesRs(prodrs, "3 replicas", "")
+
+        KubernetesPv(postgres, "postgres", "")
+        KubernetesPv(rabbitmq, "rabbitmq", "")
+    }
+
+    Namespace_Boundary(istions, "istio") {
+        KubernetesSvc(sidecars, "istio-sidecars", "")
+        KubernetesSvc(kiali, "kiali-dashboard", "")
+    }
+}
+
+Rel(userAlias,ingress,"localhost")
+Rel(userAlias,rabbitmq,"localhost:5672")
+Rel(userAlias,kiali,"istioctl dashboard kiali")
+Rel(ingress,authsvc,"/token")
+Rel(ingress,prodmansvc,"/graphql")
+Rel(ingress,prodsvc,"/product")
+
+Rel_U(hpa,deploy, " ")
+
+Rel_U(deploy, authsvc, " ")
+Rel_U(deploy, prodmansvc, " ")
+Rel_U(deploy, prodsvc, " ")
+
+
+Rel(rabbitmq, prodmansvc," ")
+Rel(prodmansvc, postgres," ")
+
+Rel(prodsvc,prodrs," ")
+Rel(prodrs,postgres," ")
+
+Rel(sidecars, ns,"injects")
+@enduml
+
+@startuml kubernetes
+
+footer Kubernetes Plant-UML
+scale max 1024 width
+
+skinparam nodesep 10
+skinparam ranksep 10
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment left
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<cluster>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BorderStyle line
+    BorderColor #326CE5
+    BackgroundColor #FFFFFF
+    RoundCorner 25
+}
+
+skinparam rectangle<<namespace>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BorderStyle line
+    BorderColor #FF4216
+    BackgroundColor #FFFFFF
+    RoundCorner 25
+}
+
+skinparam rectangle<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BorderStyle line
+    BorderColor #096B24
+    BackgroundColor #FFFFFF
+    RoundCorner 25
+}
+
+skinparam rectangle<<service>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BorderStyle line
+    BorderColor #096B24
+    BackgroundColor #FFFFFF
+    RoundCorner 25
+}
+
+
+
+
+
+
+
+
+
+hide stereotype
+
+
+
+
+
+sprite $KubernetesSvc [70x66/16z] {
+rPS7aYCn30CPHUB_7xvyOx6irOYRkv9ZbmqeqZV200I_te6Vf58RnqNJmmC5EtS4dk1qWYGM3AQRQ6B5xS8KEqBsrTuXzQ2MZeS3E_R51uwHdgHIws9KaYk6
+ojZsctV60CsCdeLf0ZsBj2thOAHbgS7ucrY0TTDKcbu7WpNwuhjUOkbPaYwiRG5TPD_29PQUnSfKx5bo4KkQFi94Ek6BOE9iyre4Ws9HVy28_P7QXJwFnUP_
+6ENzQebhVZGiDPZHijHWy3gBlebbrAc8_8cHvK_-FHqa-PF_RnFbJr23yUSpDET9CkQHfDM2rrhaJIpwTh_5tYGNYjTPvFf2ts9KfsFg1NvYrzC0CCeYKtP7
+GPSiXy8UcvD7xp2LQA1KmJbEL66S4lG4xTLJSSmC4OKae1aYXW8j24mGCC8SmU24nhAU5ujIyKG8p9EtzQoBIkS09sVoqQrDS946cCDL0GxesDIpc0ekeeda
+0PHqapPuO-3tRZX2Ux9rlQhmmUpfPfD2NvmV
+}
+
+skinparam rectangle<<KubernetesSvc>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $KubernetesIng [70x66/16z] {
+rPM7ijqm24Gle0B__yE9PvmnrZ4ZfoSdzTsobdOfd_-85X5JVbxZmEt7DNgS_BYEZ5Xetwyn8qZ_BWtrA1YlZJQFYjU1MUoO-YRQ6aTW-rY8DGRFM7ROwNiT
+_0n2bOyaw_MT25M-agwznYL1Y2sDCPxoxUraETZe9x8Mmw8oRWSKZyHa4FvyfUKrZGkNEWijL5XzMamD6gCuNxyxIfp6TDvo1ckBpl128NpOsBIixbGalRJG
+CRVgI2obh7wWLrcSU3KFvktbaMqmTYtyPbsFY6Zf0vQdALp0iCz1sNK5unXhTIlgBL1DjOCvvh3bGhBlQJ3D0EdSxvzGFp38H6rKMB85zBTJSARg8eOwo0xH
+c45zlmLrAVVQ67ehWbOupsS1h53Ht4C73Pi4fQwFuXsjSBv3jrEKI6UW5T8ceKewsq6_eab1ITuaBTWlrQfhzPHIXmE5YgPM03BNixH75V5YfR78BkUWCXUp
+WQzZnAaoRjScuXXJ0fM632fx1tO0IXwB6WznlZp7ITpnRt2JmF8zt2G2oxTmaz3uboh6Zij807Eez6LM0eijDh4dGETPHZErYAQjSQmKpBYZSuY7pA7XI54-
+5GuLE_vkFK87Z2xPgp0UeeygtTAD60zfgxiHRHxkwYOU10MyHuXld4LGm5GxHmLXK3Nj0uW4OJnxUjIuVlvnlW
+}
+
+skinparam rectangle<<KubernetesIng>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $KubernetesPod [70x66/16z] {
+rPTdckCm34CfTjp_m5kdoGuYorld_SxtGW4kj7mY742DNtRye4rk4tZXlcSa3lY-e_20a1sqGSZBGLk3SRammuhITRLNQDkgPTyp2XkGuWlRA95iCcHcu0v9
+-jr4PXA4hIE1aJui6WIzOEcmrzWiBmIZ3uUG2OrQ11DiY9bXsU0Mp9IJ6_SKaN9B5z1fCZCyWIvC18-bH3GQgD1fY0ez_hJvyw1U_ljb9FKFiocFjq-M5rxI
+h53Mvk3XJe7EpqYbpuVnp3AGCbbOCBvbOS7KbeK5Wr-n68bbOI4_jZqB2IRtB2GO_9h5xbZ8aqflMkPW0YU2MhI81O-8auKv0AKMj9yiR1amRW7QPak0eCzN
+bj9tYuEoVD7d-6cnNcyE3KuQqlhA6ZDmdoINqXPDbi8z_iJc8OqRc1p1FY4d1XPeOwRkhEwZUJryYOam3S1K4stcetazVETrHKkxeqUxewHvFRme3q1B2z3K
+F9x8X7FP4l84lNYYklnzvFOnNNLhNWyloWEC8IjgRL5PqnkVLvonTVTm0fnM-S_v2W
+}
+
+skinparam rectangle<<KubernetesPod>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $KubernetesRs [70x66/16z] {
+rPS5bcCn30GjoOA-_u6NF1IdFsXvAaoLvvPnV28cW9HVTIpAna_ZMFo2Hm8Ri-z847nqqC81SJjeAnnnks26ArAlItk7ibPP-Xv9TE25JxHH9kaZUtFmJCpl
+982OYm2GtnuTYo3rvVyK7oAOhxzCB3OBgyuOqzqJGFWY0AIxZE1D0hNKKQh1ymKX0uSM6epkWcyKWCeNFhu97GaMZ9EEO03YGmcBzOYp1iaGaJNZBWn0YSXJ
+6VJKaXU9i7bBUvOgl58dyq5uWHAUoyM2ATfEFkGtYx1OT1pYr3B9KEnRYiHoPN7RSy5u9MzRTCIxPGi6lsAniP2EPGPW7-g570jhMCZm7uleMDGE9b_qSjcn
+NxQyprJQiD01jZvb5WuewwDVjMZ7uZZ0Vi6o_MR-gcKRZ0qB-KdTiWGeaynI5OU04cGDQ5DaKzY7DFhNDrC5zB6nWpu-dX1qoK4mzAZRdRFCF5MjQ7auYPqS
+2KrayF9m2XifWCjCLfvZi94Ae5ozTMfJOfc5C5QUO-QUBX2gchGyntYtutEoUwBXLFDunP7swEbdKph-Sxu2
+}
+
+skinparam rectangle<<KubernetesRs>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $KubernetesDeploy [70x66/16z] {
+rPPNWYqv24DDCcZ_2-uSAJ0ry_BvwgXh90nU_n0AmEd7DPu9MVyRmoV_KuSs4lhVDHm5jluB76ZOjusMGCVjm0GJpdEqTmWPO_an7N9CpC6N6k4UQE4R8gvl
+VqLYZLIEYv0mkf7-FkVhT2-zz3TxDevYB0bVwLBqoTyiKkDdOxY-k2HgogUYkddadtx6vIBBKQKebRoosq_6N2lbAESJ7-OMNyMp0reV9igEYjm_kJMqDoRo
+2RdjTkhxxj8hrdTxTFE1BhO4hiXWZ5uEc6V4Cxpe2HPz8WfZV531IbXb32OLxKKWoPRU5qyYrUy4OqPy65Uvm_f-sLcaD67iNKeYr-DNPwUckQHhQYxFpcLp
+2Geg9xbUbTAA81UKPrtwiHnMv67_ijh-z9TH8vKAf9phniTrhKSPmaYth7HM6MPitjCOqDFd6TrJsSd2Z2lDAd7dKHZkE5AyF2RcnrJWVo0hW_-EhKGEYl4L
+CnJu-7HV-8hQ44ynbPt55a9476h26shOp0hTmCVz71vSl64BQWY2C6A5Mb10p1cWgEF9GQr0B92ehX03sDMs05j0uPpYAVYgijqTISLKTugdW3yh4aCeHDuh
+0iGGH2cU4drpbn72l24gRB3zwYuWckAfIPbA-fuYErlZ1vLDE-tRbfZdqWrel3ttCFG4hx-SHm
+}
+
+skinparam rectangle<<KubernetesDeploy>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $KubernetesHpa [70x66/16z] {
+rPQ7pgOw34HTuZBl_y2tRFx5IlX2tNhKAKVWiGReBw8127xhwAJIOmp5Gmyx9jfzH-03HdUGn09dkeWcLbmEJ756o7cqLqWzZUMTXmDdd0SVk8syaHHC8umD
+bsCK6xxEr-W453JYponC0rXR-C0Yrong2OGDLsCr6Fba4GjiUEEoB0PZiuNLCPEcnnPC5cwEeZGoNooVBD6wHQHU2FLAhFtYrFqGQon1sazulwiFju-tMxbR
+jltAVHy4RPOQ13VzDgO4K1QI_M1oYutDT5X2RyIMmvgPjNf-BiikUqT1xVEoIexzm2KvjnISms1Q3VkgfJJLBQNSMtAsJAaCAnryszBZrg6XakzOQZ-YbAMv
+Rh5nOnobqKmxisJ69YbntI3VTzSMbjhTkaBttVLb8SrF5cVwilZSL08KlcrEoxACtsSWOzSnjlf9iS4IEjR8PC7AGcpVB3fzbp4XIqjvahGxbXPTMyf3sgXO
+FKjRM1OivaBnpYBKoJUMDhJKHjWnZc8eDy5JSgoRXopAxTtFLE81IZEumJfDneG6Zeahl-uID-8fRBAOYAEPYYDLTb9Q4AEb8HYgI88xN9Rn70KbZcIe0vnf
+JVaadcAmH5dKClWada9sblv6d6Xy5a_HiD42AT2cud1H5rl4SnuKr1UBVqoSMuJEIPpGw0ACOuokOLYJGdyu_m8
+}
+
+skinparam rectangle<<KubernetesHpa>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $KubernetesPv [70x66/16z] {
+rTS7ZkKm30DGgultF_3sQj3mLxREczw8iGKpoNf37439BsTyqhOU2tptC4SI6vzd58XO4zeuI5aliiR9omCpt9JUH_kAjj5OvZbIcE23Bumf2vcJVJbu8jby
+vxQK135U4fxHQyfyOnGFyJxwhe7kgloawjENbvGzeC9KraRKSm_IOqhPEXFlKsyflciPrV7wpcUjUDYOxP-SrAdmS4-aoJ4YkettWspVjkoky1_79ABcsQZG
+jK0tnacuUbHr0_Zohj9Do4Hvj_YwuWSIlv9YP5lcAKKQQfu2rb3p5BRbynJxBId96gfbUXNc3PKwkwCuL6uZNOLqYqMVAXoVyCBCYF28oAm66fIHb3abcpL7
+3kESageRSzfIpw-EYgTwU5F8_UuxZ-SxR6k7kI2715Er21kFXmhi8aoZ5O2oyN25ZIjwjHRIhkCv3ye3q4g39HyFHrCWBQEdDcKhWfdluvaqivjf02LDntCM
+sueeMJTrJz5rryF7Aqx6fuSBdBMk_znx
+}
+
+skinparam rectangle<<KubernetesPv>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+
+actor "User" as userAlias
+left to right direction
+
+rectangle "==Kubernetes Cluster" <<cluster>> as cluster {
+    rectangle "==sve\n<size:12>[Namespace]</size>" <<namespace>> as ns {
+        rectangle "<color:#0072C6><$KubernetesDeploy></color>\n\n==deployment" <<KubernetesDeploy>> as deploy
+        rectangle "<color:#0072C6><$KubernetesHpa></color>\n\n==HPA" <<KubernetesHpa>> as hpa
+
+        rectangle "<color:#0072C6><$KubernetesIng></color>\n\n==nginx-ingress" <<KubernetesIng>> as ingress
+        rectangle "<color:#0072C6><$KubernetesSvc></color>\n\n==auth-service" <<KubernetesSvc>> as authsvc
+        
+        rectangle "<color:#0072C6><$KubernetesSvc></color>\n\n==product-management" <<KubernetesSvc>> as prodmansvc
+        
+        rectangle "<color:#0072C6><$KubernetesSvc></color>\n\n==product-service" <<KubernetesSvc>> as prodsvc
+        rectangle "<color:#0072C6><$KubernetesRs></color>\n\n==3 replicas" <<KubernetesRs>> as prodrs
+
+        rectangle "<color:#0072C6><$KubernetesPv></color>\n\n==postgres" <<KubernetesPv>> as postgres
+        rectangle "<color:#0072C6><$KubernetesPv></color>\n\n==rabbitmq" <<KubernetesPv>> as rabbitmq
+    }
+
+    rectangle "==istio\n<size:12>[Namespace]</size>" <<namespace>> as istions {
+        rectangle "<color:#0072C6><$KubernetesSvc></color>\n\n==istio-sidecars" <<KubernetesSvc>> as sidecars
+        rectangle "<color:#0072C6><$KubernetesSvc></color>\n\n==kiali-dashboard" <<KubernetesSvc>> as kiali
+    }
+}
+
+userAlias - -> ingress : "===localhost"
+userAlias - -> rabbitmq : "===localhost:5672"
+userAlias - -> kiali : "===istioctl dashboard kiali"
+ingress - -> authsvc : "===/token"
+ingress - -> prodmansvc : "===/graphql"
+ingress - -> prodsvc : "===/product"
+
+hpa -UP-> deploy : "=== "
+
+deploy -UP-> authsvc : "=== "
+deploy -UP-> prodmansvc : "=== "
+deploy -UP-> prodsvc : "=== "
+
+
+rabbitmq - -> prodmansvc : "=== "
+prodmansvc - -> postgres : "=== "
+
+prodsvc - -> prodrs : "=== "
+prodrs - -> postgres : "=== "
+
+sidecars - -> ns : "===injects"
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

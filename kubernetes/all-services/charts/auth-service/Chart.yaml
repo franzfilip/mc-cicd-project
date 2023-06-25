@@ -1,0 +1,5 @@
+# Chart.yaml for auth-service
+apiVersion: v2
+name: auth-service
+description: A Helm chart for the auth service
+version: 0.1.0

@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <GraphQL Remove="Queries\ProductQuery.graphql" />
+    <GraphQL Remove="subscriptions\OrderPlacedSubscription.graphql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Queries\ProductQuery.graphql" />
+    <None Remove="Subscriptions\OrderPlacedSubscription.graphql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+	<PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+	<PackageReference Include="StrawberryShake.CodeGeneration.CSharp.Analyzers" Version="11.3.2" />
+	<PackageReference Include="StrawberryShake.Transport.Http" Version="11.3.2" />
+	<PackageReference Include="StrawberryShake.Transport.WebSockets" Version="11.3.6" />
+	<PackageReference Include="System.Reactive" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel\DataModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <GraphQLConfig Include="Mutations\PlaceOrderMutation.graphql" />
+    <GraphQLConfig Include="Queries\ProductQuery.graphql" />
+    <GraphQLConfig Include="Subscriptions\OrderPlacedSubscription.graphql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.Production.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Remove="Mutations\PlaceOrderMutation.graphql" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+dependencies:
+- name: product-management
+  repository: ""
+  version: 0.1.0
+digest: sha256:cf658a95cb4a412cebb44bfe6d35fc4b8f313c492ebe104d3a93abe8c1b3975b
+generated: "2023-06-19T20:35:23.969231711+02:00"

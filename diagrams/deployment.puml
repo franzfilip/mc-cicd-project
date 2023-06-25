@@ -1,0 +1,72 @@
+@startuml deplyoment
+
+footer Kubernetes Plant-UML
+scale max 1024 width
+
+skinparam nodesep 10
+skinparam ranksep 10
+
+' Kubernetes
+!define KubernetesPuml https://raw.githubusercontent.com/dcasati/kubernetes-PlantUML/master/dist
+
+!includeurl KubernetesPuml/kubernetes_Common.puml
+!includeurl KubernetesPuml/kubernetes_Context.puml
+!includeurl KubernetesPuml/kubernetes_Simplified.puml
+
+!includeurl KubernetesPuml/OSS/KubernetesSvc.puml
+!includeurl KubernetesPuml/OSS/KubernetesIng.puml
+!includeurl KubernetesPuml/OSS/KubernetesPod.puml
+!includeurl KubernetesPuml/OSS/KubernetesRs.puml
+!includeurl KubernetesPuml/OSS/KubernetesDeploy.puml
+!includeurl KubernetesPuml/OSS/KubernetesHpa.puml
+!includeurl KubernetesPuml/OSS/KubernetesPv.puml
+
+actor "User" as userAlias
+left to right direction
+
+' Kubernetes Components
+Cluster_Boundary(cluster, "Kubernetes Cluster") {
+    Namespace_Boundary(ns, "sve") {
+        KubernetesDeploy(deploy,"deployment","")
+        KubernetesHpa(hpa, "HPA", "")
+
+        KubernetesIng(ingress, "nginx-ingress", "")
+        KubernetesSvc(authsvc, "auth-service", "")
+        
+        KubernetesSvc(prodmansvc, "product-management", "")
+        
+        KubernetesSvc(prodsvc, "product-service", "")
+        KubernetesRs(prodrs, "3 replicas", "")
+
+        KubernetesPv(postgres, "postgres", "")
+        KubernetesPv(rabbitmq, "rabbitmq", "")
+    }
+
+    Namespace_Boundary(istions, "istio") {
+        KubernetesSvc(sidecars, "istio-sidecars", "")
+        KubernetesSvc(kiali, "kiali-dashboard", "")
+    }
+}
+
+Rel(userAlias,ingress,"localhost")
+Rel(userAlias,rabbitmq,"localhost:5672")
+Rel(userAlias,kiali,"istioctl dashboard kiali")
+Rel(ingress,authsvc,"/token")
+Rel(ingress,prodmansvc,"/graphql")
+Rel(ingress,prodsvc,"/product")
+
+Rel_U(hpa,deploy, " ")
+
+Rel_U(deploy, authsvc, " ")
+Rel_U(deploy, prodmansvc, " ")
+Rel_U(deploy, prodsvc, " ")
+
+
+Rel(rabbitmq, prodmansvc," ")
+Rel(prodmansvc, postgres," ")
+
+Rel(prodsvc,prodrs," ")
+Rel(prodrs,postgres," ")
+
+Rel(sidecars, ns,"injects")
+@enduml

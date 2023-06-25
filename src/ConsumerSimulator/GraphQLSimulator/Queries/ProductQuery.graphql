@@ -1,0 +1,7 @@
+query GetProducts($whereFilter: ProductFilterInput, $orderInput: [ProductSortInput!]) {
+  products(where: $whereFilter, order: $orderInput){
+    id
+    name
+    price
+  }
+}

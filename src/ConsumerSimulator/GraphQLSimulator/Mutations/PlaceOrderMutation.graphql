@@ -1,0 +1,6 @@
+mutation PlaceOrder($orderInput: ReceivedOrderInput!) {
+  placeOrder(order: $orderInput) {
+    id
+    totalAmount
+  }
+}
